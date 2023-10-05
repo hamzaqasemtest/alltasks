@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../frontE_project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "first task"
+	}
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="out-wrapper">
+            <h1 id="title" class="title">
+                Choose:
+            </h1>
+            <div id="cards" class="cards">
+                <div class="card">
+                    <div class="item-logo">
+                        <a onclick="play(this)" value="rock">
+                            <img src="./Rock.png" alt="">
+                        </a>
+                    </div>
+                    <div id="item-text">
+                        Rock
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="item-logo">
+                        <a onclick="play(this)" value="paper">
+                            <img src="./paper.png" alt="">
+                        </a>
+                    </div>
+                    <div id="item-text">
+                        Paper
+                    </div>
+                </div> 
+                <div class="card">
+                    <div class="item-logo">
+                        <a onclick="play(this)" value="scissors">
+                            <img src="./scissors.png" alt="">
+                        </a>
+                    </div>
+                    <div id="item-text">
+                        Scissors
+                    </div>
+                </div>
+            </div>
+            <button id="try-again" class="try-again" style="display: none;">Try Again</button>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00519D;
+}
+
+#gameArea {
+  position: absolute;
+  top: 0;
+  bottom: 130px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: -2;
+}
+
+#basket {
+  text-align: center;
+}
+
+#ball {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 74px;
+  width: 74px;
+  background: url(./img/Group\ 4.png);
+}
+
+.basket-post {
+  position: absolute;
+  width: 10px;
+  height: calc(100% - 175px);
+  background-color: #00519D;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -1;
+}
